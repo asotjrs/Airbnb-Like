@@ -16,6 +16,7 @@ import {
 import Home from './src/screens/Home';
 import Post from './src/components/Post';
 
+import posts from './src/assets/data/feed';
 
 
 const App: () => Node = () => {
@@ -24,8 +25,8 @@ const App: () => Node = () => {
 
   return (
     <SafeAreaView >
-    <Post/>
-    
+
+<Post post={posts[0]}/>    
     </SafeAreaView>
   );
 };

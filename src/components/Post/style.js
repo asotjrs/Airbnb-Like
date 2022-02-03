@@ -23,7 +23,8 @@ const styles = StyleSheet.create({
         // margin:10
      },
      prices:{
-         fontSize:18
+         fontSize:18,
+         marginVertical:10
      },
      oldPrice:{
          color:"lightgrey",

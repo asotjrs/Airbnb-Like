@@ -11,14 +11,14 @@ const styles =StyleSheet.create({
     title:{
 
         fontSize:70,
-        color:"yellow",
+        color:"green",
         fontWeight:"bold",
         width:"60%",
         marginLeft:20
 
     },
     button:{
-            backgroundColor:"yellow",
+            backgroundColor:"green",
             width:"60%",
             height:40,
             borderRadius:10,
@@ -30,7 +30,7 @@ const styles =StyleSheet.create({
     },
     buttonText:{
         fontSize:16,
-        //color:"white",
+        color:"white",
         fontWeight:"bold",
     },
     searchButton:{
