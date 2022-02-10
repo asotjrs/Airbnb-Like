@@ -18,6 +18,7 @@ import Post from './src/components/Post';
 
 import posts from './src/assets/data/feed';
 import SearchResults from './src/screens/SearchResults';
+import DestinationSearch from './src/screens/DestinationSearch';
 
 
 const App: () => Node = () => {
@@ -26,7 +27,7 @@ const App: () => Node = () => {
 
   return (
     <SafeAreaView >
-      <SearchResults />
+        <DestinationSearch/>
     </SafeAreaView>
   );
 };
